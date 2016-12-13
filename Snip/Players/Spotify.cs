@@ -84,8 +84,8 @@ namespace Winter
                             //Bypass API.
                             else
                             {
-                                
-                                 TextHandler.UpdateText(words[1], words[0]);
+                                string[] words = spotifyTitle.Split(new string[] { " - " }, 2, StringSplitOptions.None);
+                                TextHandler.UpdateText(words[1], words[0]);
  
  
                                 /*
